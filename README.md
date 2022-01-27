@@ -8,6 +8,7 @@ Tâches accomplies:
 - classification des données
 - création du data frame
 - système de points fini
+
 Tâches à faire:
 - interface
 - création de l'IA

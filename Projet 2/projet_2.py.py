@@ -1,22 +1,9 @@
-﻿import xlrd
-import numpy as np
-import pandas as pd
-from PyQt5.QtWidgets import \
-    QApplication, \
-    QWidget, \
-    QMainWindow, \
-    QLabel, \
-    QPushButton, \
-    QVBoxLayout, \
-    QGridLayout, \
-    QMessageBox
-from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QColor, QPalette
+﻿import pandas as pd
+from numpy import *
 
 df = pd.read_csv("Classeur_projet.csv", encoding = "ISO-8859-1")
 print (df.head())
 print (df.dtypes)
-
 
 ##df = pandas.DataFrame({'LH': [27,284,9.44,4,102,35.66,274.77,7,16,103,182,10],\
 ##                + 'VB':[17,176,9.66,1,10,5.68,190.56,0,9,20,67,10], \
@@ -44,16 +31,5 @@ print (df.dtypes)
 ##                +'Nombre Championnat Mondial','Nombre Saison',\
 ##                +'Nombre Pole Position','Nombre Podium', 'Ecurie']
 
-##def points(df):
-##    i = 0
-##    for i in range(len(df)):
-##
-##
-##
-##
-##
-##
-##def ihm():
 
-
-
+##def ihm

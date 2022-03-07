@@ -36,5 +36,8 @@ original.plot.bar(x="abandon",y="grand prix")
 
 
 
-
+print(original)
+print(average)
+print(sort_value)
+print(result)
 
